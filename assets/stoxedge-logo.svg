@@ -1,0 +1,18 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stoxedgeGradient" x1="18" y1="12" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="stoxedgeGlow" x1="28" y1="20" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#BEF264" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="60" height="60" rx="20" fill="#0F172A" opacity="0.85"/>
+  <circle cx="36" cy="36" r="26" fill="url(#stoxedgeGradient)"/>
+  <circle cx="36" cy="36" r="18" fill="url(#stoxedgeGlow)"/>
+  <path d="M22 39L30.5 31.5L34 36L41.5 28.5L50 37" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 44C22 44 27 44 30 44C34 44 39 42 44 38C47 36 50 33 50 33" stroke="#E2F7FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <circle cx="50" cy="37" r="4" fill="#F8FAFC"/>
+</svg>
