@@ -1,5 +1,6 @@
 <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+
     <linearGradient id="valueBase" x1="18" y1="12" x2="58" y2="60" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FEF3C7" />
       <stop offset="0.55" stop-color="#FBBF24" />
@@ -16,15 +17,18 @@
     <linearGradient id="coinRing" x1="26" y1="24" x2="46" y2="48" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FEF3C7" />
       <stop offset="1" stop-color="#C2410C" />
+
     </linearGradient>
   </defs>
   <rect x="6" y="6" width="60" height="60" rx="18" fill="url(#valueBase)" />
   <circle cx="36" cy="34" r="24" fill="url(#coinGlow)" />
   <circle cx="36" cy="36" r="22" fill="url(#coinFace)" />
+
   <circle cx="36" cy="36" r="16" fill="url(#coinRing)" opacity="0.9" />
   <circle cx="36" cy="36" r="12.5" fill="#FFFBEB" opacity="0.9" />
   <path d="M30.5 28.5H44M30.5 34.5H40.5M33.5 28.5C36.5 31 35.5 36.5 30.5 38.5H42C39.5 40.5 37 43.5 36 45.5" stroke="#B45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
   <path d="M48.5 24L50.5 28L54.5 30L50.5 32L48.5 36L46.5 32L42.5 30L46.5 28L48.5 24Z" fill="#FEF3C7" opacity="0.92" />
   <path d="M24 48C27 50.5 31 52 36 52C41 52 45 50.5 48 48" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" opacity="0.7" />
   <path d="M26 22C30 18 42 18 46 22" stroke="#FEF3C7" stroke-width="3" stroke-linecap="round" opacity="0.35" />
+
 </svg>
