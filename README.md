@@ -19,3 +19,25 @@ Example:
 - Update pricing in `index.html` as needed.
 - Replace Terms/Privacy links.
 - Add your domain, favicon, and analytics.
+
+## Backend API
+An ASP.NET Core Web API is available in the `SuvixIT.Api` project. It stores newsletter subscriptions, demo requests, and email configuration using PostgreSQL.
+
+### Prerequisites
+- .NET 7 SDK
+- PostgreSQL database (update `ConnectionStrings:DefaultConnection` in `SuvixIT.Api/appsettings.json`).
+
+### Database setup
+Apply Entity Framework Core migrations (create one if this is a new database) or run `dotnet ef database update` after generating migrations.
+
+### Running the API
+```
+dotnet restore SuvixIT.Api/SuvixIT.Api.csproj
+dotnet run --project SuvixIT.Api/SuvixIT.Api.csproj
+```
+Swagger UI will be available at `https://localhost:7189/swagger` in development.
+
+### Key endpoints
+- `POST /api/subscriptions` — Persist a new subscription.
+- `POST /api/demorequests` — Create a demo request and send an email using the stored configuration.
+- `GET/PUT /api/admin/email-configuration` — Manage SMTP settings for outbound notifications.
